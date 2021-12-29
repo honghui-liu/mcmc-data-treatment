@@ -2,7 +2,12 @@
 # coding: utf-8
 
 # # Unscale fits file
-# This file is intended to unscale the output fits file of MCMC implementation in XSPEC. Some variables should be modified for the code to work. First, please change the 'deftype' variable to the one needed (1 for alpha_13, 2 for alpha_22). Then modify the input fits file name. Remember that the input fits file will be edited with the original defpar being replaced by unscaled defpar. So a copy of the original file is needed. Modify the column name of spin parameter and deformation parameter by print the variable cols.names .
+# This file is intended to unscale the output fits file of MCMC implementation in XSPEC. 
+# Some variables should be modified for the code to work. First, please change the 'deftype' 
+# variable to the one needed (1 for alpha_13, 2 for alpha_22). Then modify the input fits file 
+# name. Remember that the input fits file will be edited with the original defpar being replaced 
+# by unscaled defpar. So a copy of the original file is needed. Modify the column name of spin 
+# parameter and deformation parameter by print the variable cols.names .
 # 
 
 # The "corner" module can be downloaded from here "https://github.com/dfm/corner.py". 
