@@ -4,7 +4,9 @@
 # # MCMC corner plot
 # 
 
-# This code is written by Honghui to get the corner plot with MCMC sample from XSPEC. The corner module can be found on this website: "https://github.com/dfm/corner.py". The input fits file name needs to be modified and also the column name of each parameter.
+# This code is written by Honghui to get the corner plot with MCMC sample from XSPEC. The corner 
+module can be found on this website: "https://github.com/dfm/corner.py". The input fits file name 
+needs to be modified and also the column name of each parameter.
 
 # In[1]:
 
